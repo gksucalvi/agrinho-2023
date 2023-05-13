@@ -1,0 +1,35 @@
+:root{
+	--cor-de-fundo:#2EC8EA;
+	--cor-da-fonte:#A02323;
+	--cor-do-degrade: violet;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.cabecalho{
+	background-color: var(--cor-de-fundo);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 24px 0;
+}
+
+.cabecalho-imagem{
+	width:15%;
+}
+
+.lista-link{
+	display: inline-block;
+	margin: 0 16px;
+	font-size: 20px;
+	color: var(--cor-da-fonte);
+}
+
+body{
+	font-family: 'Changa One', cursive;
+}
+
+
