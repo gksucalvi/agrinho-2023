@@ -1,0 +1,86 @@
+:root{
+	--cor-de-fundo:#2EC8EA;
+	--cor-da-fonte:#A02323;
+	--cor-do-degrade: violet;
+	--cor-do-2-degrade:#B48FE3;
+	--cor-do-3-degrade:#E677B4;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.cabecalho{
+	background-color: var(--cor-de-fundo);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 24px 0;
+}
+
+.cabecalho-imagem{
+	width:15%;
+}
+
+.lista-link{
+	display: inline-block;
+	margin: 0 16px;
+	font-size: 20px;
+	color: var(--cor-da-fonte);
+}
+
+body{
+	font-family: 'Changa One', cursive;
+	background-image: linear-gradient(var(--cor-de-fundo), var(--cor-do-degrade));
+}
+
+.container{
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+.proposta{
+	
+	margin: 0 10px;
+	padding: 10px 0;
+}
+
+.proposta-imagem{
+	width: 35%;
+}
+
+.titulo-proposta{
+	font-size: 48px;
+	margin: 20px 0;
+}
+
+.texto-proposta{
+	font-size: 24px;
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.estudos{
+	background-image: linear-gradient(var(--cor-do-degrade), var(--cor-do-2-degrade));
+	margin: 0 10px;
+	
+}
+
+.imagem-estudos{
+	width: 35%;
+}
+
+.estudos-titulo{
+	font-size: 48px;
+	margin: 20px 0;
+}
+
+.estudos-texto{
+	font-size: 24px;
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+
