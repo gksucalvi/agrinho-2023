@@ -23,6 +23,20 @@
 	width:15%;
 }
 
+.link{
+	text-decoration: none;
+	color: var(--cor-da-fonte);
+}
+
+.link:hover {
+	color:rgb(255, 4, 8)
+}
+
+.link:active {
+	text-decoration: underline;
+	color: #1df600;
+}
+
 .lista-link{
 	display: inline-block;
 	margin: 0 16px;
@@ -39,9 +53,10 @@ body{
 	display: flex;
 	align-items: center;
 	text-align: center;
+	
 }
 
-.proposta{
+#proposta{
 	
 	margin: 0 10px;
 	padding: 10px 0;
@@ -49,6 +64,8 @@ body{
 
 .proposta-imagem{
 	width: 35%;
+	box-shadow: -1px 10px 18px #3a8a61;
+	border-radius: 10%;
 }
 
 .titulo-proposta{
@@ -62,7 +79,7 @@ body{
 	padding: 0 10px;
 }
 
-.estudos{
+#estudos{
 	background-image: linear-gradient(var(--cor-do-degrade), var(--cor-do-2-degrade));
 	margin: 0 10px;
 	
@@ -70,6 +87,8 @@ body{
 
 .imagem-estudos{
 	width: 35%;
+	box-shadow: 10px 10px 18px #2718cc;
+	border-radius: 4%;
 }
 
 .estudos-titulo{
@@ -83,4 +102,18 @@ body{
 	padding: 0 10px;
 }
 
+#Pmudancas{
+	background-image: linear-gradient(var(--cor-do-2-degrade), var(--cor-do-3-degrade));
+	margin: 0 10px;
+}
 
+.Pmudancas-titulo{
+	font-size: 48px;
+	margin: 20px 0;
+}
+
+.Pmudancas-texto{
+	font-size: 24px;
+	margin: 10px 0;
+	padding: 0 10px;
+}

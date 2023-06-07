@@ -12,23 +12,26 @@
 <body>
 	<header class="cabecalho">
 			<img class="cabecalho-imagem" src="MUDAR-PhotoRoom.png" alt="Logo de uma nuvem escrito 'MUDAR'">
-			<ul class="lista">
-				<li class="lista-link">Proposta</li>
-				<li class="lista-link">Estudos</li>
-				<li class="lista-link">Possiveis Mudanças</li>
-			</ul>
+			<div class="cabecalho-caixa">
+				<ul class="lista">
+					<li class="lista-link"><a class="link" href="#proposta">Proposta</a></li>
+					<li class="lista-link"> <a class="link" href="#estudos">Estudos</a></li>
+					<li class="lista-link"> <a class="link" href="#Pmudancas">Possiveis Mudanças</a></li>
+				</ul>
+			</div>
+
 	</header>
-	<section class="container proposta">
+	<section class="container" id="proposta">
 		<div class="proposta-caixa">
 			<h1 class="titulo-proposta">Proposta</h1>
 			<p class="texto-proposta">Olá, este site vai se tratar de possiveis mudanças que, se feitas, podem beneficiar a natureza
 			e consequentemente a sua vida. </p>
-			<p class="texto-proposta">Também temos uma parte de estudos sobre mudanças climáticas "o mais novo vilãoda humanidade".</p>
+			<p class="texto-proposta">Também temos uma parte de estudos sobre mudanças climáticas "o mais novo vilão da humanidade".</p>
 		</div>
 
 		<img class="proposta-imagem" src="gabriel.jpeg" alt="foto de Gabriel Casu Calvi ">
 	</section>
-	<section class="container estudos">
+	<section class="container" id="estudos">
 		<img class="imagem-estudos" src="industria.webp" alt="foto de uma industria soltando gases na atmosfera">
 		<div class="estudos-caixa">
 			<h1 class="estudos-titulo">Mudanças Climáticas</h1>
@@ -45,10 +48,12 @@
 			</p>
 		</div>
 	</section>
-	<section class="container Pmudancas">
+	<section class="container" id="Pmudancas">
 		<div class="Pmudancas-caixa">
 			<h1 class="Pmudancas-titulo">Possíveis Mudanças</h1>
-			<p>texto sobre possiveis mudanças</p>
+			<p class="Pmudancas-texto">uma possível mudança é evitar jogar lixo em ruas, terrenos baldios, etc e começar a descartá-los da maneira correta. Também podemos 
+			   cobrar a instalação de lixeiras adequedaspara o descarte de lixo eletrônico dos governantes. 
+			</p>
 		</div>
 		<img src="" alt="foto de alguém jogando lixo na lixeira">
 	</section>
