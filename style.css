@@ -60,6 +60,7 @@ body{
 	
 	margin: 0 10px;
 	padding: 10px 0;
+	
 }
 
 .proposta-imagem{
@@ -116,4 +117,19 @@ body{
 	font-size: 24px;
 	margin: 10px 0;
 	padding: 0 10px;
+}
+
+.rodape{
+	background-color: #1b6887;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.rodape-imagem{
+	width: 15%;
+}
+
+.rodape-texto{
+	font-size: 26px;
 }
